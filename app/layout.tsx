@@ -23,6 +23,7 @@ export default function RootLayout({
         <Link href='/FramrMotionTest' className="border-solid border-2 p-1 m-1">Motion</Link>
         <Link href='/FramrMotionTest2' className="border-solid border-2 p-1 m-1">Motion II</Link>
         <Link href='/FramrMotionTest3' className="border-solid border-2 p-1 m-1">Motion III</Link>
+        <Link href='/FramrMotionTest4' className="border-solid border-2 p-1 m-1">Motion IV</Link>
       </div>
         {children}
       </body>
