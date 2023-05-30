@@ -21,6 +21,7 @@ export default function RootLayout({
         <Link href='/' className="border-solid border-2 p-1 m-1">Home</Link>
         <Link href='/CardContainer' className="border-solid border-2 p-1 m-1">Cards</Link>
         <Link href='/FramrMotionTest' className="border-solid border-2 p-1 m-1">Motion</Link>
+        <Link href='/FramrMotionTest2' className="border-solid border-2 p-1 m-1">Motion II</Link>
       </div>
         {children}
       </body>
