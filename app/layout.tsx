@@ -20,10 +20,13 @@ export default function RootLayout({
       <div>
         <Link href='/' className="border-solid border-2 p-1 m-1">Home</Link>
         <Link href='/CardContainer' className="border-solid border-2 p-1 m-1">Cards</Link>
-        <Link href='/FramrMotionTest' className="border-solid border-2 p-1 m-1">Motion</Link>
-        <Link href='/FramrMotionTest2' className="border-solid border-2 p-1 m-1">Motion II</Link>
-        <Link href='/FramrMotionTest3' className="border-solid border-2 p-1 m-1">Motion III</Link>
-        <Link href='/FramrMotionTest4' className="border-solid border-2 p-1 m-1">Motion IV</Link>
+        <Link href="/FramrMotionTests/FramrMotionTest" className="border-solid border-2 p-1 m-1">Motion</Link>
+        <Link href='/FramrMotionTests/FramrMotionTest2' className="border-solid border-2 p-1 m-1">Motion II</Link>
+        <Link href='/FramrMotionTests/FramrMotionTest3' className="border-solid border-2 p-1 m-1">Motion III</Link>
+        <Link href='/FramrMotionTests/FramrMotionTest4' className="border-solid border-2 p-1 m-1">Motion IV</Link>
+        <Link href='/FramrMotionTests/FramrMotionTest5' className="border-solid border-2 p-1 m-1">Motion V</Link>
+        <Link href='/FramrMotionTests/FramrMotionTest6' className="border-solid border-2 p-1 m-1">Motion VI</Link>
+        <Link href='/LeetCodeHistory/Arrays' className="border-solid border-2 p-1 m-1">Arrays</Link>
       </div>
         {children}
       </body>
